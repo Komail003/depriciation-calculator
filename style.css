@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #333c39;
+  }
+  
+  ::selection {
+    color: white;
+    background: #333c39;
+  }
+.form-control, .form-control:focus {
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Times New Roman", sans-serif; */
+    border: 1px solid #515260;
+    height: 3rem;
+    color: #151515;
+
+}
+
+.form-control:focus {
+    border-radius: 4px;
+    border: 2px solid #333c39;
+    background-color: rgb(243, 243, 243);
+    
+    box-shadow: none;
+    /*box-shadow: 4px 4px 2px #00548A;*/
+}
+
+.logo{
+    width: 150px;
+    /* height:100px; */
+}
+label {
+    font-family: 'fahadFont', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333c39;
+}
+
+tbody {
+    font-size: 18px;
+}
+
+/* 
+{
+    color: #333c39;
+} */
+/*for input icons*/
+.input-icon {
+    position: relative;
+}
+
+.input-icon > i {
+    position: absolute;
+    display: block;
+    transform: translate(0, -50%);
+    top: 50%;
+    pointer-events: none;
+    width: 25px;
+    text-align: center;
+    font-style: normal;
+    color: #151515;
+}
+
+.input-icon > input {
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+.input-icon-right > i {
+    right: 0;
+}
+
+.input-icon-right > i.years {
+    right: 24px;
+}
+
+.input-icon-right > input {
+    padding-left: 10px;
+}
+
+h5 strong {
+    color: #333c39;
+}
+
+.result-details {
+    color: #333c39;
+}
+#graph,#graph1{
+    font-family: "Montserrat", sans-serif;
+
+}
+#report-card p {
+    margin: 0;
+    padding-top: 5px;
+}
+.card{
+    border-radius: 20px;
+}
+.gray{
+    color: #333c39 !important;
+}
+h3, h4, th .blue {
+    color: #333c39 !important;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+.orange {
+    /* font-family: 'Tiro Telugu', sans-serif; */
+    color: #1c1c1c;
+    /*color: #FFA400;*/
+}
+
+.green {
+    color: grey;
+}
+.btn-dark{
+    background-color: #1c1c1c;
+}
+.btn-dark:hover{
+    background-color: #333c39;
+    border:1px solid #333c39;
+}
+.bold {
+    font-weight: 400;
+    font-size: 14px;
+    /*float: left;*/
+    text-align: left;
+}
+.font-bold{
+    font-weight: bold;
+}
+.table-bordered td{
+    border: none;
+    border-bottom: 1px solid #515260;
+}
+
+.tooltip > .tooltip-inner{
+    text-align: left;
+    /* font-family: 'fahadFont', sans-serif; */
+    padding: 10px;
+    background-color: #333c39;
+}
+
+#chart-2 {
+    max-height: 650px;
+    margin: 55px auto;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #fff;
+    border-bottom: 3px solid grey;
+    border-radius: 0;
+    font-weight: bold;
+}
+a {
+    color: #333c39 !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#advance {
+    cursor: pointer;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media all and (max-width: 768px) {
+    .table td {
+        font-size: 12px;
+    }
+
+    .table th {
+        font-size: 13px;
+    }
+}
